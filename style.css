@@ -1,0 +1,42 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.text {
+    font-size: 18px;
+    color: black;
+}
+
+input {
+    width: 30% !important;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    line-height: 3;
+    position: fixed;
+    text-align: center;
+    width: 100%
+}
+
+#start, #status, #num_obj {
+    font-size: 20px;
+}
+
+canvas {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 18px black;
+
+}
