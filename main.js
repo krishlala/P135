@@ -9,4 +9,12 @@ function draw() {
   image(video, 0, 0, 600, 500);
 }
 
-function s
+function start() {
+  objectDetector = ml5.objectDetector('cocossd', modelLoaded);
+  document.getElementById("status").innerHTML = "Status: Detecting Objects";
+}
+
+function modelLoaded() {
+console.log("Model Loaded");
+  status = true;
+}
